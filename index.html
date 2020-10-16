@@ -4,7 +4,7 @@
   <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Mona Zhu</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -40,11 +40,32 @@
 
 <!-- First Container -->
 <div class="bg-1" id="about">
-    <img src="img/me.jpg" class="bg-1__img img-circle margin" style="display:inline;margin-left:140px" alt="Me" width="400" height="400">
-    <div class="snug" style="padding-left:100px">
+  <div class="div-img">
+    <img src="img/me.jpg" class="headshot img-circle margin img-responsive" style="width:400px;max-width:100%;display:block;margin:0 auto;">
+  </div>
+  <div class="div-text">
       <p class="name">Mona Zhu</p>
-      <p> Cognitive psychology grad student by day. Data visualization enthusiast by trade. I study how physical objects and spaces influence the way we think and behave. </p>
-    </div>
+      <p> <br>
+      Cognitive scientist by day, data wrangler by trade. I recently obtained my PhD from the University of Waterloo in September, 2020. Currently, I work as a Research Scientist at the <a href="https://barlab.psych.ubc.ca"> Brain, Attention & Reality Lab</a> looking at ways to examine individual differences in people's eye- and head-movements via VR study data. Prior to this, I was a Research Intern at <a href="https://beworks.com">BEworks</a> where I developed and validated various behavioural tasks and metrics that could help to inform hiring decisions. <br><br>
+
+      In my PhD work, I studied human spatial organization, such as how and when we decide to rearrange items (or ourselves) in space, what drives these decisions, individual differences in how we may choose to engage in spatial organization in everyday search tasks. <br><br>
+
+      When I’m not swimming in data, I try to divide my time between doing honing my artistic interests, longboarding, and aspiring to become a better drummer. <br><br>
+    </p>
+  </div>
+  <div style="text-align:center">
+    <h3> <a href="file/Resume_MonaZhu.pdf">Resume</a> | <a href="file/CV_MonaZhu.pdf">Academic CV</a>
+    </h3>
+    <br>
+  </div>
+  <div class="logo">
+    <p>
+      <a href="https://www.linkedin.com/in/mona-zhu-6b99557b/"><img src="img/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://github.com/monazhu"><img src="img/github.png" alt="Github"></a>
+      <a href="https://twitter.com/monajhzhu"><img src="img/twitter.png" alt="Twitter"></a>
+      <a href="mailto:monajhzhu@gmail.com"><img src="img/email.png" alt="Email"></a>
+    </p>
+
   </div>
 </div>
 
@@ -52,7 +73,7 @@
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center" id="experience">
   <h1 style="color:rgba(0,0,0,0.6);padding-bottom:40px">Skills & Experience</h1>
-  <div id="timeline-content" style="width: 55%; float:left">
+  <div class="wrapper" id="timeline-left">
     <ul class="timeline">
       <li class="event">
         <h2>Statistics</h2>
@@ -70,9 +91,9 @@
       </li>
     </ul>
   </div>
-  <div id="timeline-content", style="width: 45%;float:right">
+  <div class="wrapper" id="timeline-right">
     <ul class="timeline">
-        <li class="event">
+      <li class="event">
         <h2>Languages</h2>
         <!-- <span class="smallheader">Data Analysis & Visualization</span> -->
         <span>R | R markdown (favourites: ggplot, reshape, plyr)</span>
