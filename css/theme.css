@@ -13,6 +13,10 @@ p {
   font-size: calc(14px + (10 - 4) * ((100vw - 450px) / (1600 - 450)));
 }
 
+h6 {
+  font-size: calc(6px + (10 - 4) * ((100vw - 450px) / (1600 - 450)));
+}
+
 .margin {margin-bottom: 20px;}
 
 .bg-1 {
@@ -48,15 +52,15 @@ p {
 
 .bg-2 {
   background-color: #B4E1E2; /* teal */
-  color: #ffffff;
+  color: #ffff;
 }
 .bg-3 {
   background-color: #ffffff; /* White */
   color: #555555;
 }
 .bg-4 {
-  background-color: #2f2f2f; /* Black Gray */
-  color: #fff;
+  background-color: #FFC000; /* yellow */
+  color: #555555;
 }
 .container-fluid {
   padding-top: 50px;
